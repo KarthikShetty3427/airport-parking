@@ -4,10 +4,10 @@
 /node_modules
 /.pnp
 .pnp.js
-
+mainfest.json
 # testing
 /coverage
-
+reportWebVitals.js
 # production
 /build
 
