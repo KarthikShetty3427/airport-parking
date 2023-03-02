@@ -49,10 +49,17 @@ const Header = () => {
                     <a className="dropdown-item sign-up" href="/">Register</a>
                   </div>
                 </li>
-
               </ul>
             </div>
           </nav>
+            <section id="home_page">
+              <div className="years-of-service">
+                <div className="container">
+                  For 20 years, we’ve helped travelers on their way. With free cancellations & a customer
+                  service team in the US, we are committed to serving you.
+                </div>
+              </div>
+            </section>
         </header>
       </app-header>
     </>
