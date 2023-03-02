@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
 const SearchForm = (props) => {
-
     const [departureAirport, setDepartureAirport] = useState('udupi');
     const [parkingCheckIn, setParkingCheckIn] = useState('');
     const [parkingCheckOut, setParkingCheckOut] = useState('');
@@ -10,9 +9,11 @@ const SearchForm = (props) => {
         e.preventDefault();
         props.setProgress(10);
         console.log(departureAirport);
-        props.setProgress(20);
+        props.setProgress(15);
         console.log(parkingCheckIn);
-        props.setProgress(70);
+        props.setProgress(20);
+        props.setProgress(30);
+        props.setProgress(40);
         props.setProgress(50);
         console.log(parkingCheckOut);
         props.setProgress(100);
